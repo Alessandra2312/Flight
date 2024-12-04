@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <!-- External-->
+     <link rel="stylesheet" href="./style.css">
+     <!-- Font Awosome Link-->
+      <link rel="stylesheet"  type= "text/css" href="https://cdnjs.cloundflare.com/ajax/libs/font-awesome/6.6.0/css/">
+</head>
+<body>
+
+
+    <!--HEADER-->
+ 
+    <header>
+        <div class="logo">airline</div>
+        <nav>
+            <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Book</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon" id="menuicon">
+            <i class="fa-solid fa-bars"></i >
+        </div>
+    </header>
+
+    <!--Main Section-->
+
+
+    <main class="main-container">
+        <section class="left-section">
+            <div class="content">
+                <h1>Discover the world <br> with our flights.</h1>
+                <form id="bookingForm">
+                 <div class="trip-type">
+                    <label>
+                         <input type="radio" name="triptype" value="return" required>Return
+                    </label>
+                    <label>
+                        <input type="radio" name="triptype" value="oneway" required>Oneway
+                   </label>
+                 </div>
+
+                  <div class="input-group">
+                    <div class="input-wrapper">
+                        <select id="takeoff" required>
+                         <option value=" disabled selected">Takeoff</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="UK">UK</option>
+                        <option value="India">India</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Australia">Australia</option>
+                        <option value="France">France</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="China">China</option>
+                        <option value="South African">Greece</option>
+                        <option value="Mexico">Gerogia</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Russia">Estonia</option>
+                        <option value="Russia">Cyprus</option>
+                        <option value="Russia">Denmark</option>
+                        </select>
+                    </div>
+                </div>
+                    
+                    <div class="input-group">
+                        <div class="input-wrapper">
+                            <input type="date" id="departureDate" name="date" required>
+                        </div>
+                
+                    <div class="icon">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    
+                    <div class="input-wrapper">
+                        <input type="date" id="returndate" name="date" required>
+                    </div>
+                </div>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+
+            <div class="slider">
+                <div class="slider-header">
+                    <h2> Popular beach Destination </h2>
+                    <div class="slider-buttons">
+                        <button id="prev" class="slider-btn">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+
+                        <button id="prev" class="slider-btn">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="slider-container">
+                    <div class="slider-images">
+                        <div class="slide">
+                        <img src="pexels-vladimirsrajber-27518965.jpg" alt="">
+                      <div class="info">
+                           <p class="location">Cyprus</p>
+                           <p class="sub-location">EL Nido</p>
+                       <div class="price">
+                            <span class="icon"><i class="fa-solid fa-plane-departure"></i></span>
+                            <span>$643</span>
+                             </div>
+                           </div>
+                        </div>
+                        <div class="slide">
+                            <img src="pexels-joseph-costa-639863-1462935.jpg" alt="">
+                          <div class="info">
+                               <p class="location">Cyprus</p>
+                               <p class="sub-location">EL Nido</p>
+                           <div class="price">
+                                <span class="icon"><i class="fa-solid fa-plane-departure"></i></span>
+                                <span>$643</span>
+                                 </div>
+                               </div>
+                            </div>
+                            <div class="slide">
+                                <img src="pexels-pixabay-208745.jpg" alt="">
+                              <div class="info">
+                                   <p class="location">Cyprus</p>
+                                   <p class="sub-location">EL Nido</p>
+                               <div class="price">
+                                    <span class="icon"><i class="fa-solid fa-plane-departure"></i></span>
+                                    <span>$643</span>
+                                     </div>
+                                   </div>
+                                </div>
+                                <div class="slide">
+                                    <img src="" alt="pexels-pixabay-208745.jpg">
+                                  <div class="info">
+                                       <p class="location">Cyprus</p>
+                                       <p class="sub-location">EL Nido</p>
+                                   <div class="price">
+                                        <span class="icon"><i class="fa-solid fa-plane-departure"></i></span>
+                                        <span>$643</span>
+                                         </div>
+                                       </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="pexels-pixabay-414209.jpg" alt="">
+                                      <div class="info">
+                                           <p class="location">Cyprus</p>
+                                           <p class="sub-location">EL Nido</p>
+                                       <div class="price">
+                                            <span class="icon"><i class="fa-solid fa-plane-departure"></i></span>
+                                            <span>$643</span>
+                                             </div>
+                                           </div>
+                                        </div>
+                                        <div class="slide">
+                                            <img src="pexels-marius-mann-772581-1637802.jpg" alt="">
+                                          <div class="info">
+                                               <p class="location">Cyprus</p>
+                                               <p class="sub-location">EL Nido</p>
+                                           <div class="price">
+                                                <span class="icon"><i class="fa-solid fa-plane-departure"></i></span>
+                                                <span>$643</span>
+                                                 </div>
+                                               </div>
+                                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!--JavaScript-->
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
